@@ -25,6 +25,10 @@ h1, h2, h3, p, ul{
     width: 1244px;
 }
 
+.header-flexing {
+    display: flex;
+}
+
 .header {
     background-color:#1E252B;
     padding-top: 26px;
@@ -247,7 +251,7 @@ h1, h2, h3, p, ul{
     padding-top: 33px;
     padding-left: 33px;
     padding-right: 33px;
-    padding-bottom: 38px;
+    padding-bottom: 33px;
     width: 392px;
     height: 294px;
     flex-shrink: 0;
@@ -423,6 +427,8 @@ h1, h2, h3, p, ul{
 .box-flex {
     display: flex;
 }
+
+
 
 .description-text {
     width: 401px;
