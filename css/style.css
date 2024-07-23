@@ -235,10 +235,10 @@ h1, h2, h3, p, ul{
 
 }
 
-.wrapper-section {
+/* .wrapper-section {
     display: flex;
     gap: 24px;
-}
+} */
 
 
 .wrapper-list {
@@ -277,6 +277,12 @@ h1, h2, h3, p, ul{
 
 .wrapper-flex {
     display: flex;
+}
+
+.zeplin {
+    width: 56px;
+    height: 44px;
+    flex-shrink: 0;
 }
 
 .text-figma {
@@ -320,6 +326,17 @@ h1, h2, h3, p, ul{
     margin-top: 31px;
     margin-bottom: 37px;
 
+}
+
+.wrap-button {
+    display: flex;
+    align-items: center;
+}
+
+.f {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 24px;
 }
 
 .button-description {
@@ -486,6 +503,12 @@ h1, h2, h3, p, ul{
     gap: 50px;
 }
 
+.list-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 197px;
+    gap: 50px 24px;
+}
 
 .box-wrap {
     padding-top: 29px;
