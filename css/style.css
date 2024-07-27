@@ -333,6 +333,36 @@ h1, h2, h3, p, ul{
     align-items: center;
 }
 
+.button-like {
+    padding: 7px;
+    border-radius: 8px;
+    background: #1E252B;
+    border: none;
+}
+
+.button-like:hover {
+    border-radius: 8px;
+    background: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    border: none;
+}
+
+.button-lik {
+    border-radius: 8px;
+    padding: 7px;
+    background: #1E252B;
+    border: none;
+    margin-left: 25px;
+}
+
+.button-lik:hover {
+    border-radius: 8px;
+    background: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    border: none;
+    margin-left: 25px;
+}
+
 .f {
     display: flex;
     flex-wrap: wrap;
@@ -350,6 +380,19 @@ h1, h2, h3, p, ul{
     margin-left: 130px;
 }
 
+.button-description:hover {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    background: #1E252B;
+    border: none;
+    margin-left: 130px;
+    border-radius: 8px;
+    background: #FF6E30;
+}
+
 .flex-image {
     display: flex;
     align-items: center;
@@ -360,10 +403,10 @@ h1, h2, h3, p, ul{
     width: 28px;
     height: 28px;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .image-caption {
-    margin-left: 25px;
     width: 28px;
     height: 28px;
     flex-shrink: 0;
@@ -538,6 +581,12 @@ h1, h2, h3, p, ul{
 
 }
 
+.procreate-image {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
 .text-descrip {
     margin-top: 30px;
     margin-bottom: 37px;
@@ -548,6 +597,23 @@ h1, h2, h3, p, ul{
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 214.286% */
+}
+
+
+.button-likee {
+    border-radius: 8px;
+    padding: 7px;
+    background: #1E252B;
+    border: none;
+    margin-left: 12px;
+}
+
+.button-likee:hover {
+    border-radius: 8px;
+    background: #283036;
+    box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+    border: none;
+    margin-left: 12px;
 }
 
 .button-descriptioning {
