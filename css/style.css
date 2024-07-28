@@ -102,21 +102,18 @@ h1, h2, h3, p, ul{
 } 
 
 .button {
-    border-radius: 8px;
-    background: #FF6E30;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 28px;
-    padding-right: 28px;
-}
-
-.text-button {
     color: #FDF5FF;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border-radius: 8px;
+    background: #FF6E30;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .section-hero {
@@ -188,6 +185,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-input {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     border-radius: 8px;
     background: #FF6E30;
     margin-left: 147px;
@@ -197,14 +200,6 @@ h1, h2, h3, p, ul{
     margin-right: 12px;
 }
 
-.text-button-caption {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
 
 .section-main {
     background-color: #1E252B;
@@ -370,6 +365,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-description {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     padding-top: 9px;
     padding-bottom: 9px;
     padding-left: 35px;
@@ -381,6 +382,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-description:hover {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     padding-top: 9px;
     padding-bottom: 9px;
     padding-left: 35px;
@@ -412,14 +419,6 @@ h1, h2, h3, p, ul{
     flex-shrink: 0;
 }
 
-.text-item {
-    color: rgba(255, 255, 255, 0.55);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
 
 .center {
     display: flex;
@@ -428,6 +427,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-load {
+    color: #FF6E30;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     padding-top: 17px;
     padding-bottom: 17px;
     padding-left: 38px;
@@ -437,14 +442,7 @@ h1, h2, h3, p, ul{
     background: #1E252B
 }
 
-.button-moredescription {
-    color: #FF6E30;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
+
 
 .section-logo {
     background: #1E252B;
@@ -452,6 +450,7 @@ h1, h2, h3, p, ul{
 }
 
 .thinks-wrap {
+    padding-top: 55px;
     width: 1224px;
     height: 253px;
     flex-shrink: 0;
@@ -463,7 +462,6 @@ h1, h2, h3, p, ul{
 }
 
 .caption-text {
-    margin-top: 55px;
     margin-bottom: 55px;
     color: rgba(255, 255, 255, 0.80);
     text-align: center;
@@ -513,6 +511,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-program {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 40px;
@@ -521,14 +525,6 @@ h1, h2, h3, p, ul{
     background: #FF6E30;
 }
 
-.text-program {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
 
 .wrapper-sectioxn {
     display: flex;
@@ -617,6 +613,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-descriptioning {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     padding-top: 9px;
     padding-bottom: 9px;
     padding-left: 35px;
@@ -746,6 +748,12 @@ h1, h2, h3, p, ul{
 }
 
 .button-input-box {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     border: none;
     border-radius: 8px;
     background: #FF6E30;
