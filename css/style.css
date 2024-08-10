@@ -78,6 +78,11 @@ h1, h2, h3, p, ul{
     line-height: normal;
 }
 
+.select-item  {
+    background-color: #1E252B;
+    border: none;
+}
+
 .li-img {
     margin-left: 5px;
     width: 18px;
@@ -114,6 +119,7 @@ h1, h2, h3, p, ul{
     padding-bottom: 12px;
     padding-left: 28px;
     padding-right: 28px;
+    border: none;
 }
 
 .section-hero {
@@ -198,6 +204,7 @@ h1, h2, h3, p, ul{
     height: 48px;
     margin-top: -12px;
     margin-right: 12px;
+    border: none;
 }
 
 
@@ -452,7 +459,7 @@ h1, h2, h3, p, ul{
 .thinks-wrap {
     padding-top: 55px;
     width: 1224px;
-    height: 253px;
+    padding-bottom: 56px;
     flex-shrink: 0;
     border-radius: 25px;
     border: 2px solid rgba(255, 255, 255, 0.05);
@@ -574,6 +581,7 @@ h1, h2, h3, p, ul{
     background: rgba(40, 48, 54, 0.60);
     backdrop-filter: blur(25px);
     background-image: url(../img/orangemask.png);
+    margin-top: -20px;
 
 }
 
