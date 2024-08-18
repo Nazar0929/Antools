@@ -29,7 +29,11 @@ h1, h2, h3, p, ul{
     display: flex;
 }
 
+
 .header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
     background-color:#1E252B;
     padding-top: 26px;
     padding-bottom: 58px;
@@ -45,6 +49,24 @@ h1, h2, h3, p, ul{
     align-items: center;
     gap: 12px;
 }
+
+.resizing-image {
+    animation: resize 5s infinite alternate;
+}
+
+/* Ключевые кадры для изменения размера */
+@keyframes resize {
+    0% {
+        transform: scale(1); /* Начальный размер (100%) */
+    }
+    50% {
+        transform: scale(1.2); /* Увеличение до 150% */
+    }
+    100% {
+        transform: scale(1); /* Возвращение к исходному размеру */
+    }
+}
+
 
 .text-logo {
     color: rgba(255, 255, 255, 0.90);
@@ -68,6 +90,7 @@ h1, h2, h3, p, ul{
     display: flex;
     align-items: center;
 }
+
 
 .item-text {
     color: rgba(255, 255, 255, 0.55);
@@ -120,6 +143,26 @@ h1, h2, h3, p, ul{
     padding-left: 28px;
     padding-right: 28px;
     border: none;
+    box-shadow: none;
+    cursor: pointer;
+    animation: changeColor 5s infinite alternate;
+}
+.button:hover {
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.55);
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes changeColor {
+    0% {
+        background-color:  #1E252B;; /* Синий */
+    }
+    50% {
+        background-color: #454545;
+    }
+    100% {
+        background-color: #FF6E30; /* Зеленый */
+    }
+
 }
 
 .section-hero {
@@ -130,7 +173,63 @@ h1, h2, h3, p, ul{
     background-position: right;
 }
 
-.main-text {
+/* Контейнер для иконок */
+.icon-container {
+    position: relative;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+
+}
+
+/* Летающие иконки */
+.floating-icon {
+    position: relative;
+    width: 36px; /* Размер иконки */
+    animation: float 9s ease-in-out infinite; /* Анимация для плавного движения */
+}
+
+
+/* Ключевые кадры для иконок, которые поднимаются и опускаются */
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Подъем вверх на 10px */
+    }
+    100% {
+        transform: translateY(10);
+    }
+}
+
+@keyframes downUp {
+    0% {
+        transform: translateY(-7px);
+    }
+    50% {
+        transform: translateY(10px); /* Опускание вниз на 10px */
+    }
+    80% {
+        transform: translateY(-15px); 
+    }
+    100% {
+        transform: translateY(-7px); 
+    }
+}
+
+
+/* Анимации для иконок */
+.up-down {
+    animation: upDown 9s ease-in-out infinite;
+}
+
+.down-up {
+    animation: downUp 9s ease-in-out infinite;
+}
+
+
+.pulse-text {
     width: 600px;
     color: rgba(255, 255, 255, 0.90);
     font-family: Poppins;
@@ -138,6 +237,19 @@ h1, h2, h3, p, ul{
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 70px */
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.02);
+        opacity: 0.5;
+    }
 }
 
 .span {
@@ -158,6 +270,19 @@ h1, h2, h3, p, ul{
     font-weight: 400;
     line-height: 30px; /* 166.667% */
     margin-top: 30px;
+    border: 2px solid #1E252B;
+    text-shadow: 0 0 10px #1E252B;
+    animation: shadowChange 4s infinite alternate;
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes shadowChange {
+    0% {
+        text-shadow: 0 0 10px  #1E252B;
+    }
+    50% {
+        text-shadow: 0 0 10px #ffffff; 
+    }
 }
 
 .img-input {
@@ -165,6 +290,7 @@ h1, h2, h3, p, ul{
 }
 
 .input {
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 18px;
@@ -176,6 +302,17 @@ h1, h2, h3, p, ul{
     border-radius: 15px;
     border: 1.5px solid rgba(255, 255, 255, 0.10);
     background: #283036;
+    animation: borderColorChange 4s linear infinite;
+}
+
+/* Ключевые кадры для изменения цвета */
+@keyframes borderColorChange {
+    0% {
+        border-color:  #1E252B;
+    }
+    50% {
+        border-color: #FF6E30; 
+    }
 }
 
 .image-list {
@@ -202,7 +339,6 @@ h1, h2, h3, p, ul{
     margin-left: 147px;
     width: 130.435px;
     height: 48px;
-    margin-top: -12px;
     margin-right: 12px;
     border: none;
 }

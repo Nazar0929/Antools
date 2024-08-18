@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="container header-flexing">
-                <a href="" class="list-caption"><img src="./img/antoolslogo.png" alt="">
+                <a href="" class="list-caption"><img src="./img/antoolslogo.png" alt="" class="resizing-image">
                 <p class="text-logo"><span>antools.</span></p></a>
             <nav class="nav">
                 <ul class="list-header">
@@ -24,7 +24,7 @@
                     <select id="size" name="size" class="item-text select-item">
                         <option value="xs" class="item-text">Categories</option>
                         <option value="s" class="item-text">Company</option>
-                        <option value="m" selected class="item-text">Logo</option>
+                        <option value="m" class="item-text">Logo</option>
                         <option value="l" class="item-text">Contact</option>
                     </select>
                     </li>
@@ -49,16 +49,20 @@
     <main>
         <section class="section-hero">
             <div class="container">
-                    <h1 class="main-text">Awesome tools for
+                    <h1 class="pulse-text">Awesome tools for
                         Designer & Developer<span class="span">.</span></h1>
                     <p class="main-caption">Antool is a web collection of information on paid or free Design and Development tools</p>
                     <form action="name" class="input"><label for="name"><img src="./img/searchloop.png" alt="" class="img-input"></label>
                         <input type="text" id="name" class="text-input" placeholder="find more than 430+ tools..."><button type="submit" class="button-input">Search</button>
                     </form>
-                <ul class="image-list">
-                    <li><a href="https://uk-ua.facebook.com/" target="_blank"><img src="./img/bxlfacebook.png" alt=""></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><img src="./img/bxlinstagram.png" alt=""></a></li>
-                    <li><a href="https://twitter.com/?lang=ru" target="_blank"><img src="./img/bxltwitter.png" alt=""></a></li>
+                <ul>
+                    <li class="image-list">
+                        <div class="icon-container">
+                        <a href="https://uk-ua.facebook.com/" target="_blank"><img src="./img/bxlfacebook.png" alt="" class="floating-icon up-down"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./img/bxlinstagram.png" alt="" class="floating-icon down-up"></a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank"><img src="./img/bxltwitter.png" alt="" class="floating-icon up-down"></a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
